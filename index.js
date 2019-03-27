@@ -56,12 +56,13 @@ class Calc {
   }
 }
 
-const result = new Calc(1)
-  .add(3)
-  .substract(3)
-  .multiply(2)
-  .divide(3)
-  .result();
+// const result = new Calc(1)
+//   .add(3)
+//   .substract(3)
+//   .multiply(2)
+//   .divide(3)
+//   .result();
 
-console.log(result);
+// console.log(result);
+
 module.exports = Calc;
